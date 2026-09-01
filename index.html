@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0e93b4">
+<title>Tsirava Olivia HARIZAKAMPANDEFERANA — Portfolio</title>
+<meta name="description" content="Portfolio de Tsirava Olivia Harizakampandeferana — étudiante passionnée par le développement web et le numérique.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#accueil" class="logo">Olivia<span>.</span></a>
+    <div class="nav-right">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#accueil" class="active">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#formations">Formations</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#interets">Intérêts</a></li>
+        <li><a href="#vision">Vision</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="icon-btn" id="themeToggle" aria-label="Changer de thème">
+        <svg class="icon-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+        </svg>
+      </button>
+      <button class="icon-btn burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ ACCUEIL ============ -->
+<section class="hero" id="accueil">
+  <div class="blob blob-1"></div><div class="blob blob-2"></div>
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <span class="chip reveal"><span class="dot"></span> Bienvenue sur mon portfolio</span>
+      <p class="name-top reveal" style="--d:.1s">HARIZAKAMPANDEFERANA</p>
+      <h1 class="name reveal" style="--d:.15s">Tsirava <em>Olivia</em></h1>
+      <p class="quote reveal" style="--d:.2s">« Apprendre, pratiquer et innover pour le monde de la numérisation. »</p>
+      <p class="typing reveal" style="--d:.25s"><span id="typed"></span><span class="caret"></span></p>
+      <div class="hero-cta reveal" style="--d:.3s">
+
+        <a href="tel:+261327575470" class="btn btn-primary">Me contacter
+          <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+        <a href="#formations" class="btn btn-ghost">Découvrir mon parcours</a>
+      </div>
+      <div class="hero-contact reveal" style="--d:.35s">
+        <a href="tel:+261327575470"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 
+          19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45
+           2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>+261  3275 754 70</a>
+        <a href="mailto:olivia.harizakampandeferena@student.passerellesnumeriques.org"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>olivia.harizakampandeferena@student.pn.org</a>
+      </div>
+    </div>
+    <div class="hero-photo reveal" style="--d:.2s">
+      <div class="photo-dots"></div>
+      <div class="photo-back"></div>
+      <div class="photo-frame">
+        <img
+  id="profilePhoto"
+  src="./file_00000000d52871f583fe5cf4aba2e092.png"
+  alt="Portrait de Tsirava Olivia">
+
+      <div class="badge-rotate">
+        <svg class="ring" viewBox="0 0 100 100">
+          <defs><path id="circ" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0"/></defs>
+          <text><textPath href="#circ">DÉVELOPPEMENT WEB • INNOVATION • IMPACT •&#160;</textPath></text>
+        </svg>
+        <svg class="core" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+      </div>
+    </div>
+  </div>
+  <a href="#apropos" class="scroll-down" aria-label="Défiler"><span class="mouse"></span></a>
+</section>
+
+<main>
+
+<!-- ============ À PROPOS ============ -->
+<section id="apropos">
+  <div class="container">
+    <div class="section-head reveal"><span class="overline-num">01 · Introduction</span><h2 class="title">À propos de moi</h2></div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>Étudiante bénéficiaire du programme <strong>Passerelle Numérique Madagascar (PNM)</strong> en année préparatoire <strong>Sciences, Technologies et Numérique</strong>, je suis passionnée par le développement web et la création digitale.</p>
+        <p>Curieuse et déterminée, j'aime apprendre, pratiquer et transformer des idées en <strong>solutions numériques utiles</strong>. Mon objectif : grandir chaque jour pour devenir une actrice incontournable du numérique à Madagascar.</p>
+        <div class="chips-row">
+          <span class="chip-small">Curiosité</span><span class="chip-small">Créativité</span>
+          <span class="chip-small">Motivation</span><span class="chip-small">Ponctualité</span>
+        </div>
+      </div>
+      <div class="info-card reveal" style="--d:.15s">
+        <h3>Informations</h3>
+        <ul class="info-list">
+          <li><span class="label">Nom complet</span><span class="value">HARIZAKAMPANDEFERANA Tsirava Olivia</span></li>
+          <li><span class="label">Statut</span><span class="value">Étudiante PNM — Année préparatoire STN</span></li>
+          <li><span class="label">Localisation</span><span class="value">Madagascar</span></li>
+          <li><span class="label">Téléphone</span><a class="value" href="tel:+261327575470">+261 32 75 754 70</a></li>
+          <li><span class="label">Email</span><a class="value" href="mailto:olivia.harizakampandeferena@student.passerellesnumeriques.org">olivia.harizakampandeferena@student.passerellesnumeriques.org</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FORMATIONS ============ -->
+<section id="formations">
+  <div class="container">
+    <div class="section-head reveal"><span class="overline-num">02 · Parcours</span><h2 class="title">Mes formations</h2></div>
+    <div class="timeline">
+      <div class="t-item reveal">
+        <div class="t-card">
+          <span class="t-year">2026</span>
+          <h3>Formation — Passerelle Numérique Madagascar</h3>
+          <ul class="t-list">
+            <li>Gestion de projet</li>
+            <li>Développement personnel</li>
+            <li>Mécénat de compétence sur le PITCH</li>
+          </ul>
+        </div>
+      </div>
+      <div class="t-item reveal" style="--d:.1s">
+        <div class="t-card">
+          <span class="t-year">2025 – 2026</span>
+          <h3>Licence 1 — Physique appliquée</h3>
+          <ul class="t-list"><li>Formation universitaire en physique appliquée</li></ul>
+        </div>
+      </div>
+      <div class="t-item reveal" style="--d:.2s">
+        <div class="t-card">
+          <span class="t-year">2024 – 2025</span>
+          <h3>Baccalauréat série Scientifique</h3>
+          <ul class="t-list"><li>Obtention du baccalauréat scientifique</li></ul>
+        </div>
+      </div>
+    </div>
+    <div class="lang-grid">
+      <div class="lang-card reveal">
+        <div class="icon-bubble"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+        <div><h3 style="margin-bottom:.1rem">Anglais — Gymglish</h3><p style="color:var(--muted);font-size:.9rem">Formation linguistique en ligne</p></div>
+      </div>
+      <div class="lang-card reveal" style="--d:.1s">
+        <div class="icon-bubble"><svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+        <div><h3 style="margin-bottom:.1rem">Français — Frantastique</h3><p style="color:var(--muted);font-size:.9rem">Formation linguistique en ligne</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMPÉTENCES ============ -->
+<section id="competences">
+  <div class="container">
+    <div class="section-head reveal"><span class="overline-num">03 · Savoir-faire</span><h2 class="title">Mes compétences</h2></div>
+    <div class="skills-grid">
+      <div class="reveal">
+        <h3 class="sub">Compétences numériques</h3>
+        <div class="skill"><div class="skill-top"><span>HTML &amp; CSS — sites vitrines</span><span class="pct">70%</span></div><div class="bar"><div class="bar-fill" data-level="70"></div></div></div>
+        <div class="skill"><div class="skill-top"><span>JavaScript — bases</span><span class="pct">55%</span></div><div class="bar"><div class="bar-fill" data-level="55"></div></div></div>
+        <div class="skill"><div class="skill-top"><span>Bureautique — Word, Google Docs</span><span class="pct">90%</span></div><div class="bar"><div class="bar-fill" data-level="90"></div></div></div>
+        <div class="skill"><div class="skill-top"><span>Traitement de données — Excel, Access</span><span class="pct">75%</span></div><div class="bar"><div class="bar-fill" data-level="75"></div></div></div>
+        <div class="skill"><div class="skill-top"><span>Design graphique — bases</span><span class="pct">60%</span></div><div class="bar"><div class="bar-fill" data-level="60"></div></div></div>
+      </div>
+      <div class="reveal" style="--d:.15s">
+        <h3 class="sub">Langues</h3>
+        <div class="skill"><div class="skill-top"><span>Malagasy — langue maternelle</span><span class="pct">100%</span></div><div class="bar"><div class="bar-fill" data-level="100"></div></div></div>
+        <div class="skill"><div class="skill-top"><span>Français — niveau B1</span><span class="pct">Intermédiaire</span></div><div class="bar"><div class="bar-fill" data-level="60"></div></div></div>
+        <div class="skill"><div class="skill-top"><span>Anglais — niveau A2</span><span class="pct">Élémentaire</span></div><div class="bar"><div class="bar-fill" data-level="40"></div></div></div>
+      </div>
+    </div>
+    <div class="soft-grid">
+      <div class="soft-card reveal">
+        <div class="icon-bubble"><svg viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg></div>
+        <h3>Adaptabilité</h3><p>Je sais m'adapter aux situations et aux défis que je rencontre, en trouvant des solutions efficaces.</p>
+      </div>
+      <div class="soft-card reveal" style="--d:.1s">
+        <div class="icon-bubble"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <h3>Esprit d'équipe</h3><p>J'aime collaborer et travailler avec des personnes de tous horizons pour apprendre et avancer ensemble.</p>
+      </div>
+      <div class="soft-card reveal" style="--d:.2s">
+        <div class="icon-bubble"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+        <h3>Motivation &amp; ponctualité</h3><p>Sérieuse, motivée et ponctuelle, je m'investis pleinement dans chaque projet et chaque mission.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJETS ============ -->
+<section id="projets">
+  <div class="container">
+    <div class="section-head reveal"><span class="overline-num">04 · Réalisations</span><h2 class="title">Mes projets</h2></div>
+    <div class="projects-grid">
+
+      <article class="proj-card reveal">
+        <span class="proj-num">01</span>
+        <div class="proj-body">
+          <div class="proj-top">
+            <div class="icon-bubble proj-icon" style="background:linear-gradient(135deg,#dff5fb,#e8f8fd);color:#1a7fa5">
+              <i class="fa-solid fa-kit-medical"></i>
+            </div>
+            <div class="proj-meta">
+              <span class="proj-cat">Application</span>
+              <h3>SOSAide</h3>
+            </div>
+          </div>
+          <p class="proj-desc">
+            Plateforme numérique permettant de signaler rapidement des situations
+            d'urgence et de contacter les services adaptés. Interface intuitive
+            conçue pour réduire le temps de réponse en situation critique.
+          </p>
+          <div class="proj-tags">
+            <span class="chip-small">HTML</span>
+            <span class="chip-small">CSS</span>
+            <span class="chip-small">JavaScript</span>
+            <span class="chip-small">Node.js</span>
+          </div>
+          <div class="proj-actions">
+            <a href="https://github.com/Tsiravaolivia/SOSAide.git" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+              <i class="fa-brands fa-github"></i> Code source
+            </a>
+            <a href="https://tsiravaolivia.github.io/SOSAide-application/" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">
+              <svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              Voir la démo
+            </a>
+          </div>
+        </div>
+      </article>
+
+     
+            
+      <article class="proj-card reveal" style="--d:.2s">
+        <span class="proj-num">03</span>
+        <div class="proj-body">
+          <div class="proj-top">
+            <div class="icon-bubble proj-icon" style="background:linear-gradient(135deg,#e8edfa,#f4f7ff);color:#4e6098">
+              <i class="fa-solid fa-feather-pointed"></i>
+            </div>
+            <div class="proj-meta">
+              <span class="proj-cat">Blog</span>
+              <h3>Micro-Blog</h3>
+            </div>
+          </div>
+          <p class="proj-desc">
+            Plateforme de micro-blogging permettant de publier et partager
+            de courtes réflexions, articles et idées. Interface épurée pensée
+            pour la lecture et l'écriture rapide de contenu.
+          </p>
+          <div class="proj-tags">
+            <span class="chip-small">HTML</span>
+            <span class="chip-small">CSS</span>
+            <span class="chip-small">JavaScript</span>
+          </div>
+          <div class="proj-actions">
+            <a href="https://github.com/Tsiravaolivia/blogfinal.git" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+              <i class="fa-brands fa-github"></i> Code source
+            </a>
+            <a href="https://tsiravaolivia.github.io/blog-/" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">
+              <svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              Voir la démo
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="proj-card proj-card-coming reveal" style="--d:.3s">
+        <span class="proj-num">04</span>
+        <div class="proj-body">
+          <div class="proj-top">
+            <div class="icon-bubble proj-icon" style="background:var(--accent-soft);color:var(--muted)">
+              <i class="fa-solid fa-rocket"></i>
+            </div>
+            <div class="proj-meta">
+              <span class="proj-cat">En cours</span>
+              <h3>Prochain projet</h3>
+            </div>
+          </div>
+          <p class="proj-desc">
+            Un nouveau défi est en cours de conception. Restez à l'affût —
+            chaque ligne de code est écrite avec passion et précision.
+          </p>
+          <div class="proj-tags">
+            <span class="chip-small">Bientôt révélé</span>
+          </div>
+          <div class="proj-actions">
+            <a href="#contact" class="btn btn-ghost btn-sm">
+              <svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+              Me contacter
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ CENTRES D'INTÉRÊT ============ -->
+<section id="interets">
+  <div class="container">
+    <div class="section-head reveal"><span class="overline-num">05 · En dehors du code</span><h2 class="title">Centres d'intérêt</h2></div>
+    <div class="interest-grid">
+      <div class="interest-card reveal">
+        <div class="icon-bubble"><svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+        <h3>Lecture</h3><p>Romans et encyclopédies pour nourrir ma curiosité et ma culture générale.</p>
+      </div>
+      <div class="interest-card reveal" style="--d:.1s">
+        <div class="icon-bubble"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 0 0 20 2 2 0 0 0 2-2v-1a2 2 0 0 1 2-2h1a2 2 0 0 0 2-2 10 10 0 0 0-7-13z"/></svg></div>
+        <h3>Sports collectifs</h3><p>L'esprit d'équipe et la cohésion, sur le terrain comme dans les projets.</p>
+      </div>
+      <div class="interest-card reveal" style="--d:.2s">
+        <div class="icon-bubble"><svg viewBox="0 0 24 24"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/></svg></div>
+        <h3>Cuisine</h3><p>Tester et inventer de nouvelles recettes, avec créativité et précision.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VISION ============ -->
+<section id="vision">
+  <div class="container">
+    <div class="section-head reveal"><span class="overline-num">06 · Cap vers l'avenir</span><h2 class="title">Ma vision</h2></div>
+    <div class="vision-panel reveal">
+      <p class="vision-quote">« Transformer les idées en solutions, et les solutions en impacts. »</p>
+      <p class="vision-text">Je souhaite utiliser la technologie et ma créativité pour concevoir des solutions innovantes, accessibles et porteuses d'impact pour la société.</p>
+      <div class="steps">
+        <div class="step"><span class="step-num">1</span> Idées</div>
+        <span class="step-arrow"><svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+        <div class="step"><span class="step-num">2</span> Solutions</div>
+        <span class="step-arrow"><svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+        <div class="step"><span class="step-num">3</span> Impacts</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact">
+  <div class="container">
+    <div class="section-head reveal"><span class="overline-num">07 · Parlons-en</span><h2 class="title">Me contacter</h2></div>
+    <div class="contact-grid">
+      <div class="contact-card reveal">
+        <div class="icon-bubble"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+        <h3>Téléphone</h3>
+        <a class="value" href="tel:+261327575470">+261 32 75 754 70</a>
+      </div>
+      <div class="contact-card reveal" style="--d:.1s">
+        <div class="icon-bubble"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></div>
+        <h3>Email</h3>
+        <a class="value" href="mailto:olivia.harizakampandeferena@student.passerellesnumeriques.org">olivia.harizakampandeferena@student.passerellesnumeriques.org</a>
+      </div>
+    </div>
+    <div class="cta-center reveal">
+      <div class="cta-row">
+        <a href="mailto:olivia.harizakampandeferena@student.passerellesnumeriques.org" class="btn btn-primary">
+          M'écrire un email
+          <svg viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+        </a>
+        <a href="tel:+261327575470" class="btn btn-ghost">
+          <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          M'appeler
+        </a>
+        <a href="https://github.com/Tsiravaolivia" target="_blank" rel="noopener" class="btn btn-ghost">
+          <i class="fa-brands fa-github" style="font-size:1rem"></i>
+          Voir mon GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <span>&copy; <span id="year"></span> Tsirava Olivia HARIZAKAMPANDEFERANA — Tous droits réservés.</span>
+    <span><em>Apprendre &middot; Pratiquer &middot; Innover</em></span>
+  </div>
+</footer>
+
+<button class="icon-btn" id="toTop" aria-label="Retour en haut">
+  <svg viewBox="0 0 24 24"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+</button>
+
+<div id="toastContainer" style="position:fixed;bottom:26px;left:50%;transform:translateX(-50%);z-index:200;display:flex;flex-direction:column;gap:8px;align-items:center;pointer-events:none"></div>
+
+<noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
+
+<script src="script.js"></script>
+</body>
+</html>
